@@ -78,6 +78,12 @@ ul {
   margin: auto;
 }
 
+.sort-filter-buttons {
+  margin-bottom: 20px;
+  width: 500px;
+  display: inline-flex;
+  justify-content: space-around;
+}
 
 .pigTile {
   display: inline;
@@ -110,6 +116,11 @@ ul {
 
 .pigTile h3 {
   color: #FBB;
+}
+
+.pigTile img {
+  max-width: 350px;
+  height: auto;
 }
 
 .minPigTile {
