@@ -79,10 +79,26 @@ ul {
 }
 
 .sort-filter-buttons {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   width: 500px;
   display: inline-flex;
   justify-content: space-around;
+}
+
+.search-form {
+  margin-bottom: 20px;
+}
+
+.selected-sort-button {
+  color: white;
+  background-color: black;
+  border: 2px white solid;
+}
+
+.filter-on {
+  color: white;
+  background-color: black;
+  border: 2px white solid;
 }
 
 .pigTile {
