@@ -15,7 +15,7 @@ const HogTile = ({ name, image, specialty, greased, weight, highestMedal }) => {
 
   if (hideHog) {
     return (
-      <div className='pigTile ui eight wide column'>
+      <div className='pigTile ui three wide column'>
         <h3>{ name }</h3>
         <button onClick={ hideHogTile }>Unhide This Hog</button>
       </div>
@@ -24,7 +24,7 @@ const HogTile = ({ name, image, specialty, greased, weight, highestMedal }) => {
   else {
     return (
       <div
-        className='pigTile ui eight wide column'
+        className='pigTile image ui three wide column'
         onClick={ hideExtra }
         style={{ display: hideHog }}
       >

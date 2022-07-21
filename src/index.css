@@ -118,11 +118,6 @@ ul {
   color: #FBB;
 }
 
-.pigTile img {
-  max-width: 350px;
-  height: auto;
-}
-
 .minPigTile {
   width: 250px;
   height: 250px;
