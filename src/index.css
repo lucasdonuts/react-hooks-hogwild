@@ -162,6 +162,10 @@ ul {
   clear: both;
 }
 
+.card .content {
+  min-height: 0px;
+}
+
 
 @keyframes App-logo-spin {
   from {

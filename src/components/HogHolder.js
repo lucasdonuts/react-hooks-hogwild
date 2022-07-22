@@ -77,7 +77,7 @@ const HogHolder = ({ hogs }) => {
       onSortChange={ handleSort }
       onSearchChange={ handleSearch }
       />
-      <div className='ui grid container'>
+      <div className='ui link cards four wide column'>
         { displayHogs() }
       </div>
     </>
